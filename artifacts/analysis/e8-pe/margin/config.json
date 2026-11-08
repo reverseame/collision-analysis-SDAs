@@ -1,0 +1,35 @@
+{
+  "contents": [
+    "zero",
+    "nop",
+    "int3",
+    "random",
+    "shellcode"
+  ],
+  "index": "/work/e8-pe-index",
+  "mode": "pe",
+  "placements": [
+    "zero",
+    "code_cave",
+    "uniform",
+    "q1",
+    "q2",
+    "q3",
+    "q4"
+  ],
+  "pool_per_stratum": 100,
+  "preprocess": null,
+  "repetitions": 200,
+  "root": "/data/PE-Windows",
+  "seed": 20261028,
+  "sizes": [
+    16,
+    64,
+    256,
+    1024,
+    4096,
+    16384,
+    65536
+  ],
+  "thresholds": "/work/analysis/e8-pe/e8_thresholds.csv"
+}

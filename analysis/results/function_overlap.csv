@@ -1,0 +1,4 @@
+ranges,pool_pe,pe_with_functions,cave_runs,cave_runs_inside_function,cave_bytes,cave_bytes_inside_function,shellcode_writes,shellcode_writes_inside_function
+all_ranges,2509,2311,108891,26876,5220278,1567263,631,114
+plausible,2509,2309,108887,1010,5219900,152488,630,36
+contiguous,2509,2298,108865,305,5217713,68526,629,1

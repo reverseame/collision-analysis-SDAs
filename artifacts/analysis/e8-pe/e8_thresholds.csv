@@ -1,0 +1,7 @@
+pares,algoritmo,n,comparables_%,mediana,tau_90,tau_95,tau_99
+todos,ssdeep,14157,100.0,0.0,0.0,0.0,0.0
+todos,tlsh,14157,100.0,81.0,230.0,320.0,469.4400000000005
+todos,sdhash,14157,100.0,3.0,0.0,0.0,0.0
+no_identicos,ssdeep,13961,100.0,0.0,0.0,0.0,0.0
+no_identicos,tlsh,13961,100.0,82.0,231.0,323.0,472.39999999999964
+no_identicos,sdhash,13961,100.0,3.0,0.0,0.0,0.0

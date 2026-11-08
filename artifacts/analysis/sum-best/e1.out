@@ -1,0 +1,12 @@
+estado de desreubicación (ZIP): {'guide': 34682, 'linear': 4320}
+módulos con captura Standard y Datacenter: 14368
+  con el mismo número de páginas: 14365
+pares de páginas: 1710855
+páginas idénticas (SHA-256): 1676863 de 1710855 (98.0 %)
+       pares algoritmo       n  comparables_%  mediana  tau_90  tau_95  tau_99
+       todos    ssdeep 1710855          100.0    100.0   100.0   100.0    72.0
+       todos      tlsh 1655023           96.7      0.0     0.0     0.0    89.0
+       todos    sdhash 1565183           91.5    100.0   100.0   100.0    84.0
+no_identicos    ssdeep   33992          100.0     72.0     0.0     0.0     0.0
+no_identicos      tlsh   31915           93.9     92.0   190.0   218.0   268.0
+no_identicos    sdhash   22487           66.2     72.0     5.0     0.0     0.0

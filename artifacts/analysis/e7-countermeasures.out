@@ -1,0 +1,49 @@
+E6 regenerado: 901 páginas, idénticas en artefacto, offset y ejecución
+ level missing   policy  legit_all_%  legit_nonidentical_%  e3_shellcode_%  e6_pages_%  e6_poc_chain_%  e6_scale_chain_%
+    95    open   sha256    98.013157              0.000000        0.000000    0.000000        0.000000               0.0
+    95    open   ssdeep    98.044603              1.582725        5.673485    4.883463        0.000000               0.0
+    95    open     tlsh    98.134909              6.127912        7.101505   14.872364        1.047120               0.0
+    95    open   sdhash    98.753489             37.261709       32.564647   66.259711       54.973822              25.0
+    95    open     all3    98.013274              0.005884        0.028946    0.000000        0.000000               0.0
+    95    open majority    98.141280              6.448576       10.845234   17.869034        1.047120               0.0
+    95  closed   sha256    98.013157              0.000000        0.000000    0.000000        0.000000               0.0
+    95  closed   ssdeep    98.044603              1.582725        5.673485    4.883463        0.000000               0.0
+    95  closed     tlsh    94.871512              0.017651        1.620996    0.000000        0.000000               0.0
+    95  closed   sdhash    90.238916              3.415510       18.409880   38.512764        7.329843               0.0
+    95  closed     all3    90.132595              0.000000        0.019298    0.000000        0.000000               0.0
+    95  closed majority    94.915116              0.276536        4.814743    2.441731        0.000000               0.0
+    99    open   sha256    98.013157              0.000000        0.000000    0.000000        0.000000               0.0
+    99    open   ssdeep    99.024464             50.900212       78.213045   83.018868       62.303665               0.0
+    99    open     tlsh    99.041240             51.744528       62.292551   98.113208       96.335079               0.0
+    99    open   sdhash    99.101502             54.777595       99.276341  100.000000      100.000000             100.0
+    99    open     all3    98.464686             22.725936       55.374373   81.908990       60.209424               0.0
+    99    open majority    99.072920             53.339021       84.870706   99.223085       98.429319              50.0
+    99  closed   sha256    98.013157              0.000000        0.000000    0.000000        0.000000               0.0
+    99  closed   ssdeep    99.024464             50.900212       78.213045   83.018868       62.303665               0.0
+    99  closed     tlsh    95.777842             45.634267       56.812042   83.240844       63.350785               0.0
+    99  closed   sdhash    90.586929             20.931396       85.121575   72.253052       42.931937               0.0
+    99  closed     all3    90.511060             19.048600       52.904284   71.587125       41.884817               0.0
+    99  closed majority    95.675203             38.532596       77.643767   80.355161       58.638743               0.0
+                   rule  legit_page_fp_accepted  legit_page_fp_%  raw_page_fp_%  raw_page_fp_weighted_%  expected_fp_pages_in_corpus  e6_poc_code_cave_page_%  e6_poc_prefix_page_%  e6_scale_code_cave_page_%  e6_scale_prefix_page_%
+trampoline_into_padding                      79         1.858824       1.882353                1.936210                    89632.660                56.521739             61.279461                  53.658537               95.121951
+code_island_in_zero_run                     370         8.705882       8.658824                8.982795                   415839.184                43.478261             37.373737                  45.121951               35.365854
+          signature_poc                     596        14.023529      13.976471               14.044003                   650136.936               100.000000            100.000000                   7.317073                0.609756
+        signature_scale                       0         0.000000       0.000000                0.000000                        0.000                 0.000000              0.000000                 100.000000              100.000000
+         either_generic                     411         9.670588       9.623529                9.929841                   459680.620                73.913043             74.410774                  65.243902               96.341463
+ level missing                    rule  e6_poc_code_cave_chain_%  e6_poc_prefix_chain_%  e6_scale_code_cave_chain_%  e6_scale_prefix_chain_%
+    95    open                    none                  0.000000               0.000000                         0.0                      0.0
+    95    open trampoline_into_padding                  0.000000               0.000000                         0.0                      0.0
+    95    open code_island_in_zero_run                  0.000000               0.000000                         0.0                      0.0
+    95    open          either_generic                  0.000000               0.000000                         0.0                      0.0
+    95  closed                    none                  0.000000               0.000000                         0.0                      0.0
+    95  closed trampoline_into_padding                  0.000000               0.000000                         0.0                      0.0
+    95  closed code_island_in_zero_run                  0.000000               0.000000                         0.0                      0.0
+    95  closed          either_generic                  0.000000               0.000000                         0.0                      0.0
+    99    open                    none                 84.782609              37.373737                         0.0                      0.0
+    99    open trampoline_into_padding                  2.173913               0.000000                         0.0                      0.0
+    99    open code_island_in_zero_run                 13.043478               5.050505                         0.0                      0.0
+    99    open          either_generic                  0.000000               0.000000                         0.0                      0.0
+    99  closed                    none                 75.000000              11.111111                         0.0                      0.0
+    99  closed trampoline_into_padding                  2.173913               0.000000                         0.0                      0.0
+    99  closed code_island_in_zero_run                 11.956522               1.010101                         0.0                      0.0
+    99  closed          either_generic                  0.000000               0.000000                         0.0                      0.0

@@ -1,0 +1,14 @@
+export duplicados excluidos: 196
+  server_2012r2_2016: 28176 pares
+  server_2016_2019: 38688 pares
+  desktop_7_10: 41536 pares
+funciones distintas a hashear: 189621
+  hasheadas 189621/189621
+pares: 108400 | idénticos: 16845 (15.5 %)
+       pares algoritmo      n  comparables_%  mediana  tau_90  tau_95  tau_99
+       todos    ssdeep 108400          100.0      0.0     0.0     0.0     0.0
+       todos      tlsh 108363          100.0    139.0   265.0   293.0   340.0
+       todos    sdhash      0            0.0      NaN     NaN     NaN     NaN
+no_identicos    ssdeep  91555          100.0      0.0     0.0     0.0     0.0
+no_identicos      tlsh  91530          100.0    160.0   273.0   299.0   343.0
+no_identicos    sdhash      0            0.0      NaN     NaN     NaN     NaN

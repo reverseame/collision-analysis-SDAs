@@ -1,0 +1,7 @@
+bucket,placement,functions,median_changed,ssdeep_exact,ssdeep_median,ssdeep_drift_tau95,tlsh_comparable,tlsh_exact,tlsh_median,tlsh_drift_tau95,sdhash_comparable,sdhash_score_100,sdhash_exact,sdhash_median
+256-500,interior,400,15.0,0,93.0,400,400,0,31.0,400,0,0,0,
+256-500,start,400,16.0,0,94.0,400,400,0,25.0,400,0,0,0,
+50-255,interior,400,16.0,0,44.5,400,400,0,55.0,400,0,0,0,
+50-255,start,400,16.0,0,45.0,400,400,0,48.0,400,0,0,0,
+512-8192,interior,400,15.0,0,96.0,400,399,0,20.0,399,154,35,15,94.0
+512-8192,start,400,16.0,1,96.0,400,399,0,17.0,399,156,156,143,100.0

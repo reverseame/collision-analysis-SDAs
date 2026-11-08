@@ -1,0 +1,46 @@
+PE descubiertos: 31295
+1000/31295 examinados, 1000 nuevos, 0 existentes, 0 errores
+2000/31295 examinados, 2000 nuevos, 0 existentes, 0 errores
+3000/31295 examinados, 3000 nuevos, 0 existentes, 0 errores
+4000/31295 examinados, 3999 nuevos, 0 existentes, 1 errores
+Traceback (most recent call last):
+  File "/work/code/analysis/pe_index.py", line 124, in <module>
+    main()
+  File "/work/code/analysis/pe_index.py", line 106, in main
+    digests = sdhash_files(valid_paths, workers, include_scheme=True)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/code/analysis/sda_common.py", line 64, in sdhash_files
+    raise RuntimeError(f"sdhash no devolvió {len(missing)} de {len(paths)} ficheros; primero: {missing[0]}")
+RuntimeError: sdhash no devolvió 1 de 100 ficheros; primero: /data/PE-Windows/maquina101/101exe/MRT.exe
+PE descubiertos: 31295
+5000/31295 examinados, 600 nuevos, 4400 existentes, 0 errores
+6000/31295 examinados, 1600 nuevos, 4400 existentes, 0 errores
+7000/31295 examinados, 2600 nuevos, 4400 existentes, 0 errores
+8000/31295 examinados, 3600 nuevos, 4400 existentes, 0 errores
+9000/31295 examinados, 4594 nuevos, 4400 existentes, 6 errores
+10000/31295 examinados, 5594 nuevos, 4400 existentes, 6 errores
+11000/31295 examinados, 6594 nuevos, 4400 existentes, 6 errores
+12000/31295 examinados, 7594 nuevos, 4400 existentes, 6 errores
+13000/31295 examinados, 8594 nuevos, 4400 existentes, 6 errores
+14000/31295 examinados, 9594 nuevos, 4400 existentes, 6 errores
+15000/31295 examinados, 10590 nuevos, 4400 existentes, 10 errores
+16000/31295 examinados, 11588 nuevos, 4400 existentes, 12 errores
+17000/31295 examinados, 12588 nuevos, 4400 existentes, 12 errores
+18000/31295 examinados, 13588 nuevos, 4400 existentes, 12 errores
+19000/31295 examinados, 14588 nuevos, 4400 existentes, 12 errores
+20000/31295 examinados, 15588 nuevos, 4400 existentes, 12 errores
+21000/31295 examinados, 16588 nuevos, 4400 existentes, 12 errores
+22000/31295 examinados, 17584 nuevos, 4400 existentes, 16 errores
+23000/31295 examinados, 18582 nuevos, 4400 existentes, 18 errores
+24000/31295 examinados, 19582 nuevos, 4400 existentes, 18 errores
+25000/31295 examinados, 20582 nuevos, 4400 existentes, 18 errores
+26000/31295 examinados, 21582 nuevos, 4400 existentes, 18 errores
+27000/31295 examinados, 22582 nuevos, 4400 existentes, 18 errores
+28000/31295 examinados, 23582 nuevos, 4400 existentes, 18 errores
+29000/31295 examinados, 24581 nuevos, 4400 existentes, 19 errores
+30000/31295 examinados, 25576 nuevos, 4400 existentes, 24 errores
+31000/31295 examinados, 26576 nuevos, 4400 existentes, 24 errores
+31295/31295 examinados, 26871 nuevos, 4400 existentes, 24 errores
+Hecho: 31295 examinados, 26871 nuevos, 4400 existentes, 24 errores
+PE descubiertos: 31295
+Hecho: 31295 examinados, 31265 indexados, 30 errores

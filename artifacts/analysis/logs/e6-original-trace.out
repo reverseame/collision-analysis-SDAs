@@ -1,0 +1,11 @@
+/work/e0 shards 39002
+  5000/39002
+  hits {'page1': ('32-bits/Windows7_760132bits/wlanpref.dll_19-09-2021_11-37-35_7_SP1_6.1.7601.zip', 287, None, 3), 'page3': ('32-bits/WindowsServer2016Datacenter_160732bits/WlanMM.dll_19-09-2021_20-39-53_10_SP0_10.0.14393.zip', 736, None, 27), 'page2': ('32-bits/WindowsServer2016Datacenter_160732bits/accessibilitycpl.dll_19-09-2021_19-52-39_10_SP0_10.0.14393.zip', 391, None, 34)}
+/work/e0-sum-best shards 39002
+  5000/39002
+  hits {'page1': ('32-bits/Windows7_760132bits/wlanpref.dll_19-09-2021_11-37-35_7_SP1_6.1.7601.zip', 287, 'guide', 3), 'page3': ('32-bits/WindowsServer2016Datacenter_160732bits/WlanMM.dll_19-09-2021_20-39-53_10_SP0_10.0.14393.zip', 736, 'guide', 27), 'page2': ('32-bits/WindowsServer2016Datacenter_160732bits/accessibilitycpl.dll_19-09-2021_19-52-39_10_SP0_10.0.14393.zip', 391, 'guide', 34)}
+/work/e0-heuristic shards 39002
+  5000/39002
+  10000/39002
+  15000/39002
+  hits {'page1': ('64-bits/Windows7_7601/wlanpref.dll_19-09-2021_10-58-06_7_SP1_6.1.7601.zip', 318, 'ok', 3), 'page3': ('32-bits/WindowsServer2016Standard_160732bits/WlanMM.dll_19-09-2021_16-15-18_10_SP0_10.0.14393.zip', 736, 'ok', 27), 'page2': ('64-bits/Windows8.1Pro_9600/accessibilitycpl.dll_19-09-2021_14-23-14_8.1_SP0_6.3.9600.zip', 399, 'ok', 34)}

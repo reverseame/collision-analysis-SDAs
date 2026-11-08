@@ -1,0 +1,12 @@
+write_size,mapping,writes,ssdeep_exact,tlsh_median,sdhash_comparable,sdhash_100
+16,tail_page,91,2,1.0,91,61
+16,virtual,109,0,1.0,109,66
+64,tail_page,173,60,2.0,173,109
+64,virtual,27,13,3.0,27,11
+256,tail_page,185,182,6.0,185,103
+256,virtual,15,15,1.0,15,6
+1024,tail_page,12,12,5.0,12,10
+1024,virtual,31,31,2.0,31,20
+4096,virtual,7,7,3.0,7,4
+16384,virtual,4,4,16.0,4,1
+65536,virtual,1,1,6.0,1,1

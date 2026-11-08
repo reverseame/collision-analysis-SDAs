@@ -1,0 +1,6 @@
+# Bytes of Windows binaries: restricted-access Zenodo record only (see artifacts/README.md)
+/artifacts/analysis/e3-pages/pool.parquet
+/attack-simulation/dmps/
+/extraction-and-analysis/dmps.zip
+
+__pycache__/

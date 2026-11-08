@@ -1,0 +1,141 @@
+  20/200 artefactos
+  40/200 artefactos
+  60/200 artefactos
+  80/200 artefactos
+  100/200 artefactos
+  120/200 artefactos
+  140/200 artefactos
+  160/200 artefactos
+  180/200 artefactos
+  200/200 artefactos
+1/14 zero/16: done, 200 artefactos
+  20/200 artefactos
+  40/200 artefactos
+  60/200 artefactos
+  80/200 artefactos
+  100/200 artefactos
+  120/200 artefactos
+  140/200 artefactos
+  160/200 artefactos
+  180/200 artefactos
+  200/200 artefactos
+2/14 zero/64: done, 200 artefactos
+  20/200 artefactos
+  40/200 artefactos
+  60/200 artefactos
+  80/200 artefactos
+  100/200 artefactos
+  120/200 artefactos
+  140/200 artefactos
+  160/200 artefactos
+  180/200 artefactos
+  200/200 artefactos
+3/14 zero/256: done, 200 artefactos
+  20/200 artefactos
+  40/200 artefactos
+  60/200 artefactos
+  80/200 artefactos
+  100/200 artefactos
+  120/200 artefactos
+  140/200 artefactos
+  160/200 artefactos
+  180/200 artefactos
+  200/200 artefactos
+4/14 zero/1024: done, 200 artefactos
+  20/147 artefactos
+  40/147 artefactos
+  60/147 artefactos
+  80/147 artefactos
+  100/147 artefactos
+  120/147 artefactos
+  140/147 artefactos
+  147/147 artefactos
+5/14 zero/4096: done, 147 artefactos
+  20/41 artefactos
+  40/41 artefactos
+  41/41 artefactos
+6/14 zero/16384: done, 41 artefactos
+  13/13 artefactos
+7/14 zero/65536: done, 13 artefactos
+  20/200 artefactos
+  40/200 artefactos
+  60/200 artefactos
+  80/200 artefactos
+  100/200 artefactos
+  120/200 artefactos
+  140/200 artefactos
+  160/200 artefactos
+  180/200 artefactos
+  200/200 artefactos
+8/14 code_cave/16: done, 200 artefactos
+  20/200 artefactos
+  40/200 artefactos
+  60/200 artefactos
+  80/200 artefactos
+  100/200 artefactos
+  120/200 artefactos
+  140/200 artefactos
+  160/200 artefactos
+  180/200 artefactos
+  200/200 artefactos
+9/14 code_cave/64: done, 200 artefactos
+  20/103 artefactos
+  40/103 artefactos
+  60/103 artefactos
+  80/103 artefactos
+  100/103 artefactos
+  103/103 artefactos
+10/14 code_cave/256: done, 103 artefactos
+  20/36 artefactos
+  36/36 artefactos
+11/14 code_cave/1024: done, 36 artefactos
+  7/7 artefactos
+12/14 code_cave/4096: done, 7 artefactos
+  4/4 artefactos
+13/14 code_cave/16384: done, 4 artefactos
+  1/1 artefactos
+14/14 code_cave/65536: done, 1 artefactos
+Hecho: 1552 artefactos-celda, 4656 resultados por algoritmo
+    scope  payload_size algorithm  artifacts  baseline_tau95_all_%  placement_tau95_all_%  optimized_tau95_all_%  optimized_new_tau95
+code_cave            16    sdhash        200                 100.0                  100.0                  100.0                    0
+code_cave            16    ssdeep        200                 100.0                  100.0                  100.0                    0
+code_cave            16      tlsh        200                 100.0                  100.0                  100.0                    0
+code_cave            64    sdhash        200                 100.0                  100.0                  100.0                    0
+code_cave            64    ssdeep        200                 100.0                  100.0                  100.0                    0
+code_cave            64      tlsh        200                 100.0                  100.0                  100.0                    0
+code_cave           256    sdhash        103                 100.0                  100.0                  100.0                    0
+code_cave           256    ssdeep        103                 100.0                  100.0                  100.0                    0
+code_cave           256      tlsh        103                 100.0                  100.0                  100.0                    0
+code_cave          1024    sdhash         36                 100.0                  100.0                  100.0                    0
+code_cave          1024    ssdeep         36                 100.0                  100.0                  100.0                    0
+code_cave          1024      tlsh         36                 100.0                  100.0                  100.0                    0
+code_cave          4096    sdhash          7                 100.0                  100.0                  100.0                    0
+code_cave          4096    ssdeep          7                 100.0                  100.0                  100.0                    0
+code_cave          4096      tlsh          7                 100.0                  100.0                  100.0                    0
+code_cave         16384    sdhash          4                 100.0                  100.0                  100.0                    0
+code_cave         16384    ssdeep          4                 100.0                  100.0                  100.0                    0
+code_cave         16384      tlsh          4                 100.0                  100.0                  100.0                    0
+code_cave         65536    sdhash          1                 100.0                  100.0                  100.0                    0
+code_cave         65536    ssdeep          1                 100.0                  100.0                  100.0                    0
+code_cave         65536      tlsh          1                 100.0                  100.0                  100.0                    0
+     zero            16    sdhash        200                 100.0                  100.0                  100.0                    0
+     zero            16    ssdeep        200                 100.0                  100.0                  100.0                    0
+     zero            16      tlsh        200                 100.0                  100.0                  100.0                    0
+     zero            64    sdhash        200                 100.0                  100.0                  100.0                    0
+     zero            64    ssdeep        200                 100.0                  100.0                  100.0                    0
+     zero            64      tlsh        200                 100.0                  100.0                  100.0                    0
+     zero           256    sdhash        200                 100.0                  100.0                  100.0                    0
+     zero           256    ssdeep        200                 100.0                  100.0                  100.0                    0
+     zero           256      tlsh        200                 100.0                  100.0                  100.0                    0
+     zero          1024    sdhash        200                 100.0                  100.0                  100.0                    0
+     zero          1024    ssdeep        200                 100.0                  100.0                  100.0                    0
+     zero          1024      tlsh        200                 100.0                  100.0                  100.0                    0
+     zero          4096    sdhash        147                 100.0                  100.0                  100.0                    0
+     zero          4096    ssdeep        147                 100.0                  100.0                  100.0                    0
+     zero          4096      tlsh        147                 100.0                  100.0                  100.0                    0
+     zero         16384    sdhash         41                 100.0                  100.0                  100.0                    0
+     zero         16384    ssdeep         41                 100.0                  100.0                  100.0                    0
+     zero         16384      tlsh         41                 100.0                  100.0                  100.0                    0
+     zero         65536    sdhash         13                 100.0                  100.0                  100.0                    0
+     zero         65536    ssdeep         13                 100.0                  100.0                  100.0                    0
+     zero         65536      tlsh         13                 100.0                  100.0                  100.0                    0

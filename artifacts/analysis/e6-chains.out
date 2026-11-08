@@ -1,0 +1,33 @@
+poc prefix 32-bits: elegibles 164, cadenas 54
+poc prefix 64-bits: elegibles 135, cadenas 45
+poc code_cave 32-bits: elegibles 150, cadenas 50
+poc code_cave 64-bits: elegibles 126, cadenas 42
+scale prefix 32-bits: elegibles 120, cadenas 1
+scale prefix 64-bits: elegibles 116, cadenas 1
+scale code_cave 32-bits: elegibles 150, cadenas 1
+scale code_cave 64-bits: elegibles 126, cadenas 1
+payload placement architecture algorithm  functional_chains  pages  comparable  page_tau95_%  chain_tau95_%
+    poc code_cave      32-bits    ssdeep                 50    150         150      8.666667       0.000000
+    poc code_cave      32-bits      tlsh                 50    150         150      0.000000       0.000000
+    poc code_cave      32-bits    sdhash                 50    150         138     19.565217       0.000000
+    poc code_cave      64-bits    ssdeep                 42    126         126      9.523810       0.000000
+    poc code_cave      64-bits      tlsh                 42    126         122      0.000000       0.000000
+    poc code_cave      64-bits    sdhash                 42    126         112     28.571429       4.761905
+    poc    prefix      32-bits    ssdeep                 54    162         162      0.000000       0.000000
+    poc    prefix      32-bits      tlsh                 54    162         122      0.000000       0.000000
+    poc    prefix      32-bits    sdhash                 54    162          88    100.000000       7.407407
+    poc    prefix      64-bits    ssdeep                 45    135         135      0.000000       0.000000
+    poc    prefix      64-bits      tlsh                 45    135         101      0.000000       0.000000
+    poc    prefix      64-bits    sdhash                 45    135          79    100.000000      17.777778
+  scale code_cave      32-bits    ssdeep                  1     82          82      8.536585       0.000000
+  scale code_cave      32-bits      tlsh                  1     82          82      0.000000       0.000000
+  scale code_cave      32-bits    sdhash                  1     82          74     18.918919       0.000000
+  scale code_cave      64-bits    ssdeep                  1     82          82     12.195122       0.000000
+  scale code_cave      64-bits      tlsh                  1     82          79      0.000000       0.000000
+  scale code_cave      64-bits    sdhash                  1     82          72     27.777778       0.000000
+  scale    prefix      32-bits    ssdeep                  1     82          82      1.219512       0.000000
+  scale    prefix      32-bits      tlsh                  1     82          53      0.000000       0.000000
+  scale    prefix      32-bits    sdhash                  1     82          42     97.619048       0.000000
+  scale    prefix      64-bits    ssdeep                  1     82          82      1.219512       0.000000
+  scale    prefix      64-bits      tlsh                  1     82          58      0.000000       0.000000
+  scale    prefix      64-bits    sdhash                  1     82          46    100.000000       0.000000

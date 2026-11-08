@@ -1,0 +1,23 @@
+página 1: sha256 8b0d287a3131bd1df27077bf9ef2e19d52f5a16c4ebec57d03270bc27f86bf2d
+  bytes cambiados [0, 1, 5, 6, 7]
+  ssdeep 22 exacto False
+  tlsh 17 exacto False
+  sdhash features (3, 3) comparable False puntuación None exacto True
+página 2: sha256 6c79edc507ae90db4d4f879badfebdd11f8365158e33a41f8f759d0f8aa33797
+  bytes cambiados [0, 1, 5, 6, 7]
+  ssdeep 99 exacto False
+  tlsh 5 exacto False
+  sdhash features (34, 34) comparable True puntuación 100 exacto True
+página 3: sha256 6bd804dfa2f64185e1169bd22c70d7f67da94900a405b63af80fb16eaa1f33e3
+  bytes cambiados [0, 1, 5]
+  ssdeep 97 exacto False
+  tlsh 3 exacto False
+  sdhash features (27, 27) comparable True puntuación 100 exacto True
+/work/e0:
+  página 1: ('32-bits/Windows7_760132bits/wlanpref.dll_19-09-2021_11-37-35_7_SP1_6.1.7601.zip', 287, None, 3)
+  página 2: ('32-bits/WindowsServer2016Datacenter_160732bits/accessibilitycpl.dll_19-09-2021_19-52-39_10_SP0_10.0.14393.zip', 391, None, 34)
+  página 3: ('32-bits/WindowsServer2016Datacenter_160732bits/WlanMM.dll_19-09-2021_20-39-53_10_SP0_10.0.14393.zip', 736, None, 27)
+/work/e0-sum-best:
+  página 1: ('32-bits/Windows7_760132bits/wlanpref.dll_19-09-2021_11-37-35_7_SP1_6.1.7601.zip', 287, 'guide', 3)
+  página 2: ('32-bits/WindowsServer2016Datacenter_160732bits/accessibilitycpl.dll_19-09-2021_19-52-39_10_SP0_10.0.14393.zip', 391, 'guide', 34)
+  página 3: ('32-bits/WindowsServer2016Datacenter_160732bits/WlanMM.dll_19-09-2021_20-39-53_10_SP0_10.0.14393.zip', 736, 'guide', 27)

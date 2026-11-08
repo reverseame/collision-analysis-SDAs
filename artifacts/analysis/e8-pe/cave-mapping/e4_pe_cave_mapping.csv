@@ -1,0 +1,7 @@
+algorithm,mapping,winners,exact,saturated
+sdhash,tail_page,402,3,373
+sdhash,virtual,149,2,116
+ssdeep,tail_page,395,172,297
+ssdeep,virtual,156,127,140
+tlsh,tail_page,398,70,70
+tlsh,virtual,153,39,39

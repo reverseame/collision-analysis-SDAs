@@ -1,0 +1,23 @@
+{
+  "artifacts": 200,
+  "max_padding": 256,
+  "mode": "pe",
+  "offsets": 16,
+  "pool": "/work/analysis/e8-pe/margin/pool.parquet",
+  "root": "/data/PE-Windows",
+  "scopes": [
+    "zero",
+    "code_cave"
+  ],
+  "seed": 20261028,
+  "sizes": [
+    16,
+    64,
+    256,
+    1024,
+    4096,
+    16384,
+    65536
+  ],
+  "thresholds": "/work/analysis/e8-pe/e8_thresholds.csv"
+}

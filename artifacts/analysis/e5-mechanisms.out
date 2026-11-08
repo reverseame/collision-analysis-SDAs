@@ -1,0 +1,121 @@
+mutantes distintos reconstruidos: 2421
+filas instrumentadas: 8320 | artefactos: 589
+    scope  payload_size algorithm     stage  success95  artifacts  median_score
+code_cave            16    sdhash  baseline      False        111          97.0
+code_cave            16    sdhash  baseline       True         40         100.0
+code_cave            16    sdhash optimized      False         37          98.0
+code_cave            16    sdhash optimized       True         89         100.0
+code_cave            16    sdhash placement      False         53          98.0
+code_cave            16    sdhash placement       True         73         100.0
+code_cave            16    ssdeep  baseline      False        129          97.0
+code_cave            16    ssdeep  baseline       True         22         100.0
+code_cave            16    ssdeep optimized      False         87          97.0
+code_cave            16    ssdeep optimized       True         64         100.0
+code_cave            16    ssdeep placement      False        124          97.0
+code_cave            16    ssdeep placement       True         27         100.0
+code_cave            16      tlsh  baseline      False        151           6.0
+code_cave            16      tlsh optimized      False        147           4.0
+code_cave            16      tlsh placement      False        147           6.0
+code_cave            64    sdhash  baseline      False         42          97.0
+code_cave            64    sdhash  baseline       True         25         100.0
+code_cave            64    sdhash optimized      False          5          96.0
+code_cave            64    sdhash optimized       True         39         100.0
+code_cave            64    sdhash placement      False          6          96.5
+code_cave            64    sdhash placement       True         38         100.0
+code_cave            64    ssdeep  baseline      False         42          86.0
+code_cave            64    ssdeep  baseline       True         25         100.0
+code_cave            64    ssdeep optimized      False         40          88.0
+code_cave            64    ssdeep optimized       True         27         100.0
+code_cave            64    ssdeep placement      False         40          86.0
+code_cave            64    ssdeep placement       True         27         100.0
+code_cave            64      tlsh  baseline      False         67          37.0
+code_cave            64      tlsh optimized      False         63          24.0
+code_cave            64      tlsh placement      False         63          37.0
+code_cave           256    sdhash  baseline      False         11          97.0
+code_cave           256    sdhash  baseline       True          5         100.0
+code_cave           256    sdhash optimized      False          1          98.0
+code_cave           256    sdhash optimized       True          7         100.0
+code_cave           256    sdhash placement      False          1          97.0
+code_cave           256    sdhash placement       True          7         100.0
+code_cave           256    ssdeep  baseline      False         11           0.0
+code_cave           256    ssdeep  baseline       True          5         100.0
+code_cave           256    ssdeep optimized      False         11           0.0
+code_cave           256    ssdeep optimized       True          5         100.0
+code_cave           256    ssdeep placement      False         11           0.0
+code_cave           256    ssdeep placement       True          5         100.0
+code_cave           256      tlsh  baseline      False         16         143.0
+code_cave           256      tlsh optimized      False         12          95.0
+code_cave           256      tlsh placement      False         12         143.0
+code_cave           512    sdhash  baseline      False          7          94.0
+code_cave           512    sdhash  baseline       True          3         100.0
+code_cave           512    sdhash optimized       True          4         100.0
+code_cave           512    sdhash placement       True          4         100.0
+code_cave           512    ssdeep  baseline      False          8           0.0
+code_cave           512    ssdeep  baseline       True          2         100.0
+code_cave           512    ssdeep optimized      False          8           0.0
+code_cave           512    ssdeep optimized       True          2         100.0
+code_cave           512    ssdeep placement      False          8           0.0
+code_cave           512    ssdeep placement       True          2         100.0
+code_cave           512      tlsh  baseline      False         10         159.0
+code_cave           512      tlsh optimized      False          6         109.5
+code_cave           512      tlsh placement      False          6         159.0
+     zero            16    sdhash  baseline      False        123          97.0
+     zero            16    sdhash  baseline       True         77         100.0
+     zero            16    sdhash optimized      False         27          98.0
+     zero            16    sdhash optimized       True        120         100.0
+     zero            16    sdhash placement      False         36          98.0
+     zero            16    sdhash placement       True        111         100.0
+     zero            16    ssdeep  baseline      False        177          96.0
+     zero            16    ssdeep  baseline       True         23         100.0
+     zero            16    ssdeep optimized      False        148          97.0
+     zero            16    ssdeep optimized       True         52         100.0
+     zero            16    ssdeep placement      False        175          97.0
+     zero            16    ssdeep placement       True         25         100.0
+     zero            16      tlsh  baseline      False        200           9.0
+     zero            16      tlsh optimized      False        180           6.0
+     zero            16      tlsh placement      False        180           8.0
+     zero            64    sdhash  baseline      False        112          96.0
+     zero            64    sdhash  baseline       True         88         100.0
+     zero            64    sdhash optimized      False         11          97.0
+     zero            64    sdhash optimized       True        107         100.0
+     zero            64    sdhash placement      False         11          97.0
+     zero            64    sdhash placement       True        107         100.0
+     zero            64    ssdeep  baseline      False        152          85.5
+     zero            64    ssdeep  baseline       True         48         100.0
+     zero            64    ssdeep optimized      False        130          88.0
+     zero            64    ssdeep optimized       True         70         100.0
+     zero            64    ssdeep placement      False        135          86.0
+     zero            64    ssdeep placement       True         65         100.0
+     zero            64      tlsh  baseline      False        200          42.0
+     zero            64      tlsh optimized      False        173          26.0
+     zero            64      tlsh placement      False        173          42.0
+     zero           256    sdhash  baseline      False        110          97.0
+     zero           256    sdhash  baseline       True         90         100.0
+     zero           256    sdhash optimized      False          2          97.0
+     zero           256    sdhash optimized       True         95         100.0
+     zero           256    sdhash placement      False          2          96.5
+     zero           256    sdhash placement       True         95         100.0
+     zero           256    ssdeep  baseline      False        149           0.0
+     zero           256    ssdeep  baseline       True         51         100.0
+     zero           256    ssdeep optimized      False        149           0.0
+     zero           256    ssdeep optimized       True         51         100.0
+     zero           256    ssdeep placement      False        149           0.0
+     zero           256    ssdeep placement       True         51         100.0
+     zero           256      tlsh  baseline      False        200         147.5
+     zero           256      tlsh optimized      False        162          89.5
+     zero           256      tlsh placement      False        162         147.0
+     zero           512    sdhash  baseline      False        113          96.0
+     zero           512    sdhash  baseline       True         87         100.0
+     zero           512    sdhash optimized      False          6          97.0
+     zero           512    sdhash optimized       True         96         100.0
+     zero           512    sdhash placement      False          7          96.0
+     zero           512    sdhash placement       True         95         100.0
+     zero           512    ssdeep  baseline      False        153           0.0
+     zero           512    ssdeep  baseline       True         47         100.0
+     zero           512    ssdeep optimized      False        153           0.0
+     zero           512    ssdeep optimized       True         47         100.0
+     zero           512    ssdeep placement      False        153           0.0
+     zero           512    ssdeep placement       True         47         100.0
+     zero           512      tlsh  baseline      False        200         160.0
+     zero           512      tlsh optimized      False        161         116.0
+     zero           512      tlsh placement      False        161         159.0

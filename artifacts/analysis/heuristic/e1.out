@@ -1,0 +1,11 @@
+módulos con captura Standard y Datacenter: 14368
+  con el mismo número de páginas: 14365
+pares de páginas: 1710855
+páginas idénticas (SHA-256): 1376104 de 1710855 (80.4 %)
+       pares algoritmo       n  comparables_%  mediana  tau_90  tau_95  tau_99
+       todos    ssdeep 1710855          100.0    100.0    88.0    69.0     0.0
+       todos      tlsh 1654895           96.7      0.0    16.0    35.0   106.0
+       todos    sdhash 1565056           91.5    100.0    81.0    53.0     0.0
+no_identicos    ssdeep  334751          100.0     88.0     0.0     0.0     0.0
+no_identicos      tlsh  332892           99.4     16.0    70.0   105.0   176.0
+no_identicos    sdhash  318062           95.0     82.0    20.0     0.0     0.0

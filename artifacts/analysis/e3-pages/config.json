@@ -1,0 +1,36 @@
+{
+  "contents": [
+    "zero",
+    "nop",
+    "int3",
+    "random",
+    "shellcode"
+  ],
+  "index": "/work/e0-sum-best",
+  "mode": "pages",
+  "placements": [
+    "zero",
+    "code_cave",
+    "uniform",
+    "q1",
+    "q2",
+    "q3",
+    "q4"
+  ],
+  "pool_per_stratum": 250,
+  "preprocess": "sum-best",
+  "repetitions": 200,
+  "root": "/data/modules-Windows",
+  "seed": 20261028,
+  "sizes": [
+    1,
+    4,
+    16,
+    64,
+    256,
+    512,
+    1024,
+    2048
+  ],
+  "thresholds": "/work/analysis/sum-best/e1_thresholds.csv"
+}

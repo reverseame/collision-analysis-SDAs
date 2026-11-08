@@ -1,0 +1,18 @@
+{
+  "artifacts": 200,
+  "max_padding": 256,
+  "offsets": 16,
+  "pool": "/work/analysis/e3-pages/pool.parquet",
+  "scopes": [
+    "zero",
+    "code_cave"
+  ],
+  "seed": 20261028,
+  "sizes": [
+    16,
+    64,
+    256,
+    512
+  ],
+  "thresholds": "/work/analysis/sum-best/e1_thresholds.csv"
+}

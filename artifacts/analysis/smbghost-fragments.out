@@ -1,0 +1,6 @@
+shellcode 902 B: code 694 B (214 instructions, longest 9 B), data 208 B
+naive 11-byte split of the whole shellcode: 82 fragments
+naive cuts inside an instruction: 41 of 63
+code fragments on instruction boundaries: 74
+data pages without jumps: 13
+relative branches: 26 (12 rel8); RIP-relative references: 13
